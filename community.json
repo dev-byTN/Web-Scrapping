@@ -1,0 +1,2519 @@
+{
+    "tweets": [
+        {
+            "type": "tweet",
+            "id": "1979471480799810047",
+            "url": "https://x.com/David6282138286/status/1979471480799810047",
+            "twitterUrl": "https://twitter.com/David6282138286/status/1979471480799810047",
+            "text": "https://t.co/Ml47RFiVgj https://t.co/mRqh91U7LT",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 1,
+            "createdAt": "Sat Oct 18 08:55:52 +0000 2025",
+            "lang": "zxx",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979471480799810047",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "David6282138286",
+                "url": "https://x.com/David6282138286",
+                "twitterUrl": "https://twitter.com/David6282138286",
+                "id": "1970810294461972480",
+                "name": "David",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1970810463228243968/ab-fUsSq_normal.jpg",
+                "coverPicture": "",
+                "description": "Nature is nothing without psychedelic spiritual healing and tripping 🍄❤️🔥💊👽🍫🌈",
+                "location": "",
+                "followers": 1,
+                "following": 15,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Wed Sep 24 11:19:37 +0000 2025",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "signal.group/#CjQKIBBzOBTyH…",
+                                "expanded_url": "https://signal.group/#CjQKIBBzOBTyHvgYthJGue39GvJEHdtRos30Yh1TwNQu8EB2EhDk6jlfkRA6k6CA1wqRN9xU",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/enQ6oPp7za"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 18,
+                "statusesCount": 18,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "Nature is nothing without psychedelic spiritual healing and tripping 🍄❤️🔥💊👽🍫🌈",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "signal.group/#CjQKIBBzOBTyH…",
+                                    "expanded_url": "https://signal.group/#CjQKIBBzOBTyHvgYthJGue39GvJEHdtRos30Yh1TwNQu8EB2EhDk6jlfkRA6k6CA1wqRN9xU",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/enQ6oPp7za"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "display_url": "pic.twitter.com/mRqh91U7LT",
+                        "expanded_url": "https://twitter.com/David6282138286/status/1979471480799810047/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {},
+                            "orig": {}
+                        },
+                        "id_str": "1979471470871891968",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_key": "3_1979471470871891968",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt4ftCoVtAACgACG3h+0vgW0f8AAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3h+0KhW0AAKAAIbeH7S+BbR/wAA",
+                                "media_key": "3_1979471470871891968"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3h-0KhW0AAmy12.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 538,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 147
+                                },
+                                {
+                                    "h": 960,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 1094,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 640,
+                                    "x": 320,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 1280,
+                            "width": 960
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1280,
+                                "w": 960
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/mRqh91U7LT"
+                    },
+                    {
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "display_url": "pic.twitter.com/mRqh91U7LT",
+                        "expanded_url": "https://twitter.com/David6282138286/status/1979471480799810047/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {},
+                            "orig": {}
+                        },
+                        "id_str": "1979471470876053504",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_key": "3_1979471470876053504",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt4ftCollAACgACG3h+0vgW0f8AAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3h+0KiWUAAKAAIbeH7S+BbR/wAA",
+                                "media_key": "3_1979471470876053504"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3h-0KiWUAAPOiT.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 538,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 339
+                                },
+                                {
+                                    "h": 960,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 128
+                                },
+                                {
+                                    "h": 1094,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 61
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 640,
+                                    "x": 320,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 1280,
+                            "width": 960
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1280,
+                                "w": 960
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/mRqh91U7LT"
+                    },
+                    {
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "display_url": "pic.twitter.com/mRqh91U7LT",
+                        "expanded_url": "https://twitter.com/David6282138286/status/1979471480799810047/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {},
+                            "orig": {}
+                        },
+                        "id_str": "1979471470897111040",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_key": "3_1979471470897111040",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt4ftCp16AACgACG3h+0vgW0f8AAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3h+0KnXoAAKAAIbeH7S+BbR/wAA",
+                                "media_key": "3_1979471470897111040"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3h-0KnXoAABHR_.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 538,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 339
+                                },
+                                {
+                                    "h": 960,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 128
+                                },
+                                {
+                                    "h": 1094,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 61
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 640,
+                                    "x": 320,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 1280,
+                                    "w": 960,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 1280,
+                            "width": 960
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1280,
+                                "w": 960
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/mRqh91U7LT"
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {
+                "urls": [
+                    {
+                        "display_url": "chat.whatsapp.com/EY75BAjyzdXAy1…",
+                        "expanded_url": "https://chat.whatsapp.com/EY75BAjyzdXAy14TUzm5eA?mode=wwc",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/Ml47RFiVgj"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "tweet",
+            "id": "1979446541220790607",
+            "url": "https://x.com/johanlammers/status/1979446541220790607",
+            "twitterUrl": "https://twitter.com/johanlammers/status/1979446541220790607",
+            "text": "Celebrate your small victories! 💪🥳 #depression #anxiety https://t.co/0TcWChWCHJ",
+            "source": "Twitter for iPhone",
+            "retweetCount": 8,
+            "replyCount": 0,
+            "likeCount": 28,
+            "quoteCount": 0,
+            "viewCount": 462,
+            "createdAt": "Sat Oct 18 07:16:46 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 4,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979446541220790607",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "johanlammers",
+                "url": "https://x.com/johanlammers",
+                "twitterUrl": "https://twitter.com/johanlammers",
+                "id": "17618151",
+                "name": "Johan | sensoryoverload.info",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1966155929822302208/fwvC4gWp_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/17618151/1398289726",
+                "description": "Music Maker, Neurodivergent, @sens0ryoverl0ad, Mental Health Educator, #AuDHD Coach, Left Wing, Idea Generator, Cyclist, Trail Runner, and Overall Enthusiast",
+                "location": "Nijmegen | The Netherlands",
+                "followers": 2514,
+                "following": 59,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": true,
+                "createdAt": "Tue Nov 25 12:22:02 +0000 2008",
+                "entities": {
+                    "description": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    71,
+                                    77
+                                ],
+                                "text": "AuDHD"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id_str": "0",
+                                "indices": [
+                                    29,
+                                    45
+                                ],
+                                "name": "",
+                                "screen_name": "sens0ryoverl0ad"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "sensoryoverload.info",
+                                "expanded_url": "https://sensoryoverload.info",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/KAteVaZWtg"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 3158,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 203,
+                "statusesCount": 2219,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1966642587554431179"
+                ],
+                "profile_bio": {
+                    "description": "Music Maker, Neurodivergent, @sens0ryoverl0ad, Mental Health Educator, #AuDHD Coach, Left Wing, Idea Generator, Cyclist, Trail Runner, and Overall Enthusiast",
+                    "entities": {
+                        "description": {
+                            "hashtags": [
+                                {
+                                    "indices": [
+                                        71,
+                                        77
+                                    ],
+                                    "text": "AuDHD"
+                                }
+                            ],
+                            "user_mentions": [
+                                {
+                                    "id_str": "0",
+                                    "indices": [
+                                        29,
+                                        45
+                                    ],
+                                    "name": "",
+                                    "screen_name": "sens0ryoverl0ad"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "sensoryoverload.info",
+                                    "expanded_url": "https://sensoryoverload.info",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/KAteVaZWtg"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "display_url": "pic.twitter.com/0TcWChWCHJ",
+                        "expanded_url": "https://twitter.com/johanlammers/status/1979446541220790607/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "h": 53,
+                                        "w": 53,
+                                        "x": 235,
+                                        "y": 86
+                                    },
+                                    {
+                                        "h": 60,
+                                        "w": 60,
+                                        "x": 347,
+                                        "y": 32
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "h": 53,
+                                        "w": 53,
+                                        "x": 235,
+                                        "y": 86
+                                    },
+                                    {
+                                        "h": 60,
+                                        "w": 60,
+                                        "x": 347,
+                                        "y": 32
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1979446538645479424",
+                        "indices": [
+                            56,
+                            79
+                        ],
+                        "media_key": "3_1979446538645479424",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt4aCOr1yAACgACG3hoJEVXQU8AAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3hoI6vXIAAKAAIbeGgkRVdBTwAA",
+                                "media_key": "3_1979446538645479424"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3hoI6vXIAAZECj.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 412,
+                                    "w": 736,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 733,
+                                    "w": 733,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 733,
+                                    "w": 643,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 733,
+                                    "w": 367,
+                                    "x": 129,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 733,
+                                    "w": 736,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 733,
+                            "width": 736
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 733,
+                                "w": 736
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/0TcWChWCHJ"
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            35,
+                            46
+                        ],
+                        "text": "depression"
+                    },
+                    {
+                        "indices": [
+                            47,
+                            55
+                        ],
+                        "text": "anxiety"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "tweet",
+            "id": "1979428574131015879",
+            "url": "https://x.com/Darlchin/status/1979428574131015879",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1979428574131015879",
+            "text": "It really very sad to love the wrong person",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 19,
+            "createdAt": "Sat Oct 18 06:05:22 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979428574131015879",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979344973142331642",
+            "url": "https://x.com/Areallifeloserr/status/1979344973142331642",
+            "twitterUrl": "https://twitter.com/Areallifeloserr/status/1979344973142331642",
+            "text": "I don't want to be depressed anymore i don't want to be anxious anymore I don't want to have PTSD anymore",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 42,
+            "createdAt": "Sat Oct 18 00:33:10 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979344973142331642",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Areallifeloserr",
+                "url": "https://x.com/Areallifeloserr",
+                "twitterUrl": "https://twitter.com/Areallifeloserr",
+                "id": "1801924464667467776",
+                "name": "loser",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1948229970687381504/2HfJO4wb_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1801924464667467776/1730236739",
+                "description": "a total loser.",
+                "location": "Loserville",
+                "followers": 154,
+                "following": 133,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": false,
+                "createdAt": "Sat Jun 15 10:27:35 +0000 2024",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "loser.com",
+                                "expanded_url": "http://loser.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/NVtd5iibRT"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 12038,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 0,
+                "statusesCount": 623,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "a total loser.",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "loser.com",
+                                    "expanded_url": "http://loser.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/NVtd5iibRT"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979310775341846880",
+            "url": "https://x.com/ijustanaquarius/status/1979310775341846880",
+            "twitterUrl": "https://twitter.com/ijustanaquarius/status/1979310775341846880",
+            "text": "It's as if everything has been switched off, nothing touches me anymore, nothing makes my heart and body tremble,\nIt's as suffocating as it is pleasant",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 15,
+            "createdAt": "Fri Oct 17 22:17:17 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979310775341846880",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "ijustanaquarius",
+                "url": "https://x.com/ijustanaquarius",
+                "twitterUrl": "https://twitter.com/ijustanaquarius",
+                "id": "1610303163759747073",
+                "name": "--",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1610308347860762624/EkpHemsH_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1610303163759747073/1736977457",
+                "description": "your pain is legitimate, never apologise for it\n\n           other account: \n@sadness_acnt",
+                "location": "",
+                "followers": 45,
+                "following": 20,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Tue Jan 03 15:53:02 +0000 2023",
+                "entities": {
+                    "description": {
+                        "user_mentions": [
+                            {
+                                "id_str": "0",
+                                "indices": [
+                                    76,
+                                    89
+                                ],
+                                "name": "",
+                                "screen_name": "sadness_acnt"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "wattpad.com/story/34114522…",
+                                "expanded_url": "https://www.wattpad.com/story/341145225?utm_source=android&utm_medium=link&utm_content=story_info&wp",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/sZi6ClRj65"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 1504,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 18,
+                "statusesCount": 652,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1620394405424406531"
+                ],
+                "profile_bio": {
+                    "description": "your pain is legitimate, never apologise for it\n\n           other account: \n@sadness_acnt",
+                    "entities": {
+                        "description": {
+                            "user_mentions": [
+                                {
+                                    "id_str": "0",
+                                    "indices": [
+                                        76,
+                                        89
+                                    ],
+                                    "name": "",
+                                    "screen_name": "sadness_acnt"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "wattpad.com/story/34114522…",
+                                    "expanded_url": "https://www.wattpad.com/story/341145225?utm_source=android&utm_medium=link&utm_content=story_info&wp",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/sZi6ClRj65"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979279886020702250",
+            "url": "https://x.com/AdimCherry2011/status/1979279886020702250",
+            "twitterUrl": "https://twitter.com/AdimCherry2011/status/1979279886020702250",
+            "text": "😂😂😂 https://t.co/7ay0kdrnPy",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 28,
+            "createdAt": "Fri Oct 17 20:14:32 +0000 2025",
+            "lang": "qme",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979279886020702250",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "AdimCherry2011",
+                "url": "https://x.com/AdimCherry2011",
+                "twitterUrl": "https://twitter.com/AdimCherry2011",
+                "id": "1699897137440641024",
+                "name": "Adim cherry",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1954211108165648384/rpaBc-LN_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1699897137440641024/1754755375",
+                "description": "I'm a virtual emotional support provider, I really want to make you feel safe and understood. You don't have to go through it alone, my DM is wide open ❤️",
+                "location": "",
+                "followers": 37,
+                "following": 49,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": false,
+                "createdAt": "Thu Sep 07 21:27:39 +0000 2023",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 520,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 55,
+                "statusesCount": 755,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1899901106488020994"
+                ],
+                "profile_bio": {
+                    "description": "I'm a virtual emotional support provider, I really want to make you feel safe and understood. You don't have to go through it alone, my DM is wide open ❤️",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.twitter.com/7ay0kdrnPy",
+                        "expanded_url": "https://twitter.com/AdimCherry2011/status/1979279886020702250/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1979279850624925696",
+                        "indices": [
+                            4,
+                            27
+                        ],
+                        "media_key": "7_1979279850624925696",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARt30ImXlkAACgACG3fQkdVW8CoAAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAADCgABG3fQiZeWQAAKAAIbd9CR1VbwKgAA",
+                                "media_key": "7_1979279850624925696"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1979279850624925696/pu/img/afbvyjV7e-9mVwIE.jpg",
+                        "original_info": {
+                            "focus_rects": [],
+                            "height": 1024,
+                            "width": 576
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1024,
+                                "w": 576
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/7ay0kdrnPy",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 20063,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video-s.twimg.com/ext_tw_video/1979279850624925696/pu/pl/__yTw9oCZ4zsdpjf.m3u8?tag=12"
+                                },
+                                {
+                                    "bitrate": 632000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/ext_tw_video/1979279850624925696/pu/vid/avc1/320x568/0kQVZrzqOFjUU2v0.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 950000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/ext_tw_video/1979279850624925696/pu/vid/avc1/480x852/EKbd7m7gDF8Cqah7.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/ext_tw_video/1979279850624925696/pu/vid/avc1/576x1024/nau9LETECT4rqtsj.mp4?tag=12"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979267674795397336",
+            "url": "https://x.com/johanlammers/status/1979267674795397336",
+            "twitterUrl": "https://twitter.com/johanlammers/status/1979267674795397336",
+            "text": "All of the below #anxiety https://t.co/nbZ1Ua2wqj",
+            "source": "Twitter for iPhone",
+            "retweetCount": 17,
+            "replyCount": 0,
+            "likeCount": 104,
+            "quoteCount": 0,
+            "viewCount": 3169,
+            "createdAt": "Fri Oct 17 19:26:01 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 31,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979267674795397336",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "johanlammers",
+                "url": "https://x.com/johanlammers",
+                "twitterUrl": "https://twitter.com/johanlammers",
+                "id": "17618151",
+                "name": "Johan | sensoryoverload.info",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1966155929822302208/fwvC4gWp_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/17618151/1398289726",
+                "description": "Music Maker, Neurodivergent, @sens0ryoverl0ad, Mental Health Educator, #AuDHD Coach, Left Wing, Idea Generator, Cyclist, Trail Runner, and Overall Enthusiast",
+                "location": "Nijmegen | The Netherlands",
+                "followers": 2514,
+                "following": 59,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": true,
+                "createdAt": "Tue Nov 25 12:22:02 +0000 2008",
+                "entities": {
+                    "description": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    71,
+                                    77
+                                ],
+                                "text": "AuDHD"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id_str": "0",
+                                "indices": [
+                                    29,
+                                    45
+                                ],
+                                "name": "",
+                                "screen_name": "sens0ryoverl0ad"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "sensoryoverload.info",
+                                "expanded_url": "https://sensoryoverload.info",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/KAteVaZWtg"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 3158,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 203,
+                "statusesCount": 2219,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1966642587554431179"
+                ],
+                "profile_bio": {
+                    "description": "Music Maker, Neurodivergent, @sens0ryoverl0ad, Mental Health Educator, #AuDHD Coach, Left Wing, Idea Generator, Cyclist, Trail Runner, and Overall Enthusiast",
+                    "entities": {
+                        "description": {
+                            "hashtags": [
+                                {
+                                    "indices": [
+                                        71,
+                                        77
+                                    ],
+                                    "text": "AuDHD"
+                                }
+                            ],
+                            "user_mentions": [
+                                {
+                                    "id_str": "0",
+                                    "indices": [
+                                        29,
+                                        45
+                                    ],
+                                    "name": "",
+                                    "screen_name": "sens0ryoverl0ad"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "sensoryoverload.info",
+                                    "expanded_url": "https://sensoryoverload.info",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/KAteVaZWtg"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "display_url": "pic.twitter.com/nbZ1Ua2wqj",
+                        "expanded_url": "https://twitter.com/johanlammers/status/1979267674795397336/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "h": 34,
+                                        "w": 34,
+                                        "x": 350,
+                                        "y": 216
+                                    },
+                                    {
+                                        "h": 48,
+                                        "w": 48,
+                                        "x": 177,
+                                        "y": 349
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "h": 34,
+                                        "w": 34,
+                                        "x": 350,
+                                        "y": 216
+                                    },
+                                    {
+                                        "h": 48,
+                                        "w": 48,
+                                        "x": 177,
+                                        "y": 349
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1979267672433967104",
+                        "indices": [
+                            26,
+                            49
+                        ],
+                        "media_key": "3_1979267672433967104",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt3xXYi10AACgACG3fFdq+X0NgAAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3fFdiLXQAAKAAIbd8V2r5fQ2AAA",
+                                "media_key": "3_1979267672433967104"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3fFdiLXQAADOXe.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 412,
+                                    "w": 736,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 699,
+                                    "w": 699,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 699,
+                                    "w": 613,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 699,
+                                    "w": 350,
+                                    "x": 64,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 699,
+                                    "w": 736,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 699,
+                            "width": 736
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 699,
+                                "w": 736
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/nbZ1Ua2wqj"
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            17,
+                            25
+                        ],
+                        "text": "anxiety"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "tweet",
+            "id": "1979247210177986726",
+            "url": "https://x.com/Darlchin/status/1979247210177986726",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1979247210177986726",
+            "text": "🤔",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 17,
+            "createdAt": "Fri Oct 17 18:04:42 +0000 2025",
+            "lang": "art",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979247210177986726",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979195820072206610",
+            "url": "https://x.com/Areallifeloserr/status/1979195820072206610",
+            "twitterUrl": "https://twitter.com/Areallifeloserr/status/1979195820072206610",
+            "text": "Lmao im a true embarrassment and have been in embarrassing situations every year ive been alive",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 73,
+            "createdAt": "Fri Oct 17 14:40:29 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979195820072206610",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Areallifeloserr",
+                "url": "https://x.com/Areallifeloserr",
+                "twitterUrl": "https://twitter.com/Areallifeloserr",
+                "id": "1801924464667467776",
+                "name": "loser",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1948229970687381504/2HfJO4wb_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1801924464667467776/1730236739",
+                "description": "a total loser.",
+                "location": "Loserville",
+                "followers": 154,
+                "following": 133,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": false,
+                "createdAt": "Sat Jun 15 10:27:35 +0000 2024",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "loser.com",
+                                "expanded_url": "http://loser.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/NVtd5iibRT"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 12038,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 0,
+                "statusesCount": 623,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "a total loser.",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "loser.com",
+                                    "expanded_url": "http://loser.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/NVtd5iibRT"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979157898589802716",
+            "url": "https://x.com/powerofsolitude/status/1979157898589802716",
+            "twitterUrl": "https://twitter.com/powerofsolitude/status/1979157898589802716",
+            "text": "Love yourself so much that when someone treats you wrong you recognize it.",
+            "source": "Twitter for iPhone",
+            "retweetCount": 2,
+            "replyCount": 0,
+            "likeCount": 3,
+            "quoteCount": 0,
+            "viewCount": 71,
+            "createdAt": "Fri Oct 17 12:09:48 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979157898589802716",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "powerofsolitude",
+                "url": "https://x.com/powerofsolitude",
+                "twitterUrl": "https://twitter.com/powerofsolitude",
+                "id": "1949224363376705536",
+                "name": "PowerOfSolitude 🛜🎴🎴🎴🎴",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1951706072609345536/nNOQlDu7_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1949224363376705536/1759883927",
+                "description": "Solitude's wisdom: short quotes to guide you through life's toughest moments, when you need them most.",
+                "location": "Heaven",
+                "followers": 343,
+                "following": 695,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Jul 26 21:44:50 +0000 2025",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1784,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 3,
+                "statusesCount": 557,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1976954294097318191"
+                ],
+                "profile_bio": {
+                    "description": "Solitude's wisdom: short quotes to guide you through life's toughest moments, when you need them most.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979157334719938761",
+            "url": "https://x.com/Darlchin/status/1979157334719938761",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1979157334719938761",
+            "text": "So real",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 25,
+            "createdAt": "Fri Oct 17 12:07:34 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979157334719938761",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979097053729796436",
+            "url": "https://x.com/author_gopal/status/1979097053729796436",
+            "twitterUrl": "https://twitter.com/author_gopal/status/1979097053729796436",
+            "text": "Good morning",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 33,
+            "createdAt": "Fri Oct 17 08:08:02 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979097053729796436",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "author_gopal",
+                "url": "https://x.com/author_gopal",
+                "twitterUrl": "https://twitter.com/author_gopal",
+                "id": "1396784454266359808",
+                "name": "venugopal, scientist & author",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1682580654041763843/XCsxweYG_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1396784454266359808/1701486920",
+                "description": "Author (https://t.co/xAjhxMJDCl), Ex Scientist with DRDO, Life coach, Farmer, Dreamer, NISM certified Research Analyst",
+                "location": "Hyderabad, India",
+                "followers": 2220,
+                "following": 5307,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": true,
+                "createdAt": "Mon May 24 11:05:53 +0000 2021",
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "display_url": "venugopalbooks.com",
+                                "expanded_url": "http://www.venugopalbooks.com",
+                                "indices": [
+                                    8,
+                                    31
+                                ],
+                                "url": "https://t.co/xAjhxMJDCl"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "wealthy.in/partners/venug…",
+                                "expanded_url": "https://www.wealthy.in/partners/venug38541",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/2L1n7qIDH4"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 18002,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 144,
+                "statusesCount": 2341,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1963816164200759726"
+                ],
+                "profile_bio": {
+                    "description": "Author (https://t.co/xAjhxMJDCl), Ex Scientist with DRDO, Life coach, Farmer, Dreamer, NISM certified Research Analyst",
+                    "entities": {
+                        "description": {
+                            "urls": [
+                                {
+                                    "display_url": "venugopalbooks.com",
+                                    "expanded_url": "http://www.venugopalbooks.com",
+                                    "indices": [
+                                        8,
+                                        31
+                                    ],
+                                    "url": "https://t.co/xAjhxMJDCl"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "wealthy.in/partners/venug…",
+                                    "expanded_url": "https://www.wealthy.in/partners/venug38541",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/2L1n7qIDH4"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1979037409359646900",
+            "url": "https://x.com/slumppac_man/status/1979037409359646900",
+            "twitterUrl": "https://twitter.com/slumppac_man/status/1979037409359646900",
+            "text": "Work on yourself daily \n#depression #anxiety #StressRelief https://t.co/tknI7r539m",
+            "source": "Twitter for iPhone",
+            "retweetCount": 1,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 67,
+            "createdAt": "Fri Oct 17 04:11:01 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979037409359646900",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "slumppac_man",
+                "url": "https://x.com/slumppac_man",
+                "twitterUrl": "https://twitter.com/slumppac_man",
+                "id": "1906499266442334208",
+                "name": "JR👨‍🚀",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1906511587516506112/Y-22PLQh_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1906499266442334208/1743382870",
+                "description": "i lurk more than i post 👀",
+                "location": "cloud 9",
+                "followers": 167,
+                "following": 308,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Mon Mar 31 00:10:33 +0000 2025",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "t.me/+mQZaMASrUYA5Z…",
+                                "expanded_url": "https://t.me/+mQZaMASrUYA5ZDVk",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/lqgc7KALxV"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 25,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 76,
+                "statusesCount": 87,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "i lurk more than i post 👀",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "t.me/+mQZaMASrUYA5Z…",
+                                    "expanded_url": "https://t.me/+mQZaMASrUYA5ZDVk",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/lqgc7KALxV"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "display_url": "pic.twitter.com/tknI7r539m",
+                        "expanded_url": "https://twitter.com/slumppac_man/status/1979037409359646900/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "h": 266,
+                                        "w": 266,
+                                        "x": 958,
+                                        "y": 1535
+                                    },
+                                    {
+                                        "h": 318,
+                                        "w": 318,
+                                        "x": 880,
+                                        "y": 876
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "h": 266,
+                                        "w": 266,
+                                        "x": 958,
+                                        "y": 1535
+                                    },
+                                    {
+                                        "h": 318,
+                                        "w": 318,
+                                        "x": 880,
+                                        "y": 876
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1979037389675692032",
+                        "indices": [
+                            59,
+                            82
+                        ],
+                        "media_key": "3_1979037389675692032",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt29AVA1gAACgACG3b0CdYXULQAAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3b0BUDWAAAKAAIbdvQJ1hdQtAAA",
+                                "media_key": "3_1979037389675692032"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3b0BUDWAAAv7us.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 804,
+                                    "w": 1436,
+                                    "x": 0,
+                                    "y": 549
+                                },
+                                {
+                                    "h": 1436,
+                                    "w": 1436,
+                                    "x": 0,
+                                    "y": 233
+                                },
+                                {
+                                    "h": 1637,
+                                    "w": 1436,
+                                    "x": 0,
+                                    "y": 133
+                                },
+                                {
+                                    "h": 2003,
+                                    "w": 1002,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 2003,
+                                    "w": 1436,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 2003,
+                            "width": 1436
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2003,
+                                "w": 1436
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/tknI7r539m"
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            24,
+                            35
+                        ],
+                        "text": "depression"
+                    },
+                    {
+                        "indices": [
+                            36,
+                            44
+                        ],
+                        "text": "anxiety"
+                    },
+                    {
+                        "indices": [
+                            45,
+                            58
+                        ],
+                        "text": "StressRelief"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "tweet",
+            "id": "1979016164102582458",
+            "url": "https://x.com/dagasbros/status/1979016164102582458",
+            "twitterUrl": "https://twitter.com/dagasbros/status/1979016164102582458",
+            "text": "Oxy's https://t.co/s6zjf7tPR6",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 27,
+            "createdAt": "Fri Oct 17 02:46:36 +0000 2025",
+            "lang": "cs",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979016164102582458",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "dagasbros",
+                "url": "https://x.com/dagasbros",
+                "twitterUrl": "https://twitter.com/dagasbros",
+                "id": "1974552453556166656",
+                "name": "Dagasbros",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1974553555500404736/5QlXQB-5_normal.jpg",
+                "coverPicture": "",
+                "description": "",
+                "location": "New York, USA",
+                "followers": 8,
+                "following": 49,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Oct 04 19:09:40 +0000 2025",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "ptwdym158.org/ScriptxPsyche",
+                                "expanded_url": "https://ptwdym158.org/ScriptxPsyche",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/YZ68jM0b6M"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 37,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 7,
+                "statusesCount": 9,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "ptwdym158.org/ScriptxPsyche",
+                                    "expanded_url": "https://ptwdym158.org/ScriptxPsyche",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/YZ68jM0b6M"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "display_url": "pic.twitter.com/s6zjf7tPR6",
+                        "expanded_url": "https://twitter.com/dagasbros/status/1979016164102582458/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1979016001330008064",
+                        "indices": [
+                            6,
+                            29
+                        ],
+                        "media_key": "13_1979016001330008064",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARt24JFkFtAAAAA=",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAAECgABG3bgkWQW0AAAAA==",
+                                "media_key": "13_1979016001330008064"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1979016001330008064/img/G87SscPH5j1T_DjN.jpg",
+                        "original_info": {
+                            "focus_rects": [],
+                            "height": 1280,
+                            "width": 720
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1280,
+                                "w": 720
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/s6zjf7tPR6",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 12800,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video-s.twimg.com/amplify_video/1979016001330008064/pl/XfF7OnezKWrrw_jD.m3u8?tag=21"
+                                },
+                                {
+                                    "bitrate": 632000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/amplify_video/1979016001330008064/vid/avc1/320x568/BeSvj0QkRB8mCYxX.mp4?tag=21"
+                                },
+                                {
+                                    "bitrate": 950000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/amplify_video/1979016001330008064/vid/avc1/480x852/D9Fh4t4F83Wzq30P.mp4?tag=21"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video-s.twimg.com/amplify_video/1979016001330008064/vid/avc1/720x1280/ToRPLQTs6rOkVJJg.mp4?tag=21"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1978923319928766802",
+            "url": "https://x.com/dhanielharry_/status/1978923319928766802",
+            "twitterUrl": "https://twitter.com/dhanielharry_/status/1978923319928766802",
+            "text": "https://t.co/vh5lA3wgUX",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 29,
+            "createdAt": "Thu Oct 16 20:37:40 +0000 2025",
+            "lang": "zxx",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978923319928766802",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "dhanielharry_",
+                "url": "https://x.com/dhanielharry_",
+                "twitterUrl": "https://twitter.com/dhanielharry_",
+                "id": "1516043356140417027",
+                "name": "Dhaniel_Harry",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1812550105049788416/GJqmGnXM_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1516043356140417027/1717017031",
+                "description": "Motivational Speaker | Video Editor | Web3 & Book Cover Designer | \nFocused on business, money, and self-development",
+                "location": "Lagos, Nigeria",
+                "followers": 232,
+                "following": 849,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": true,
+                "createdAt": "Mon Apr 18 13:18:21 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 2195,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 170,
+                "statusesCount": 2050,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1812362596328055191"
+                ],
+                "profile_bio": {
+                    "description": "Motivational Speaker | Video Editor | Web3 & Book Cover Designer | \nFocused on business, money, and self-development",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {
+                "media": [
+                    {
+                        "display_url": "pic.twitter.com/vh5lA3wgUX",
+                        "expanded_url": "https://twitter.com/dhanielharry_/status/1978923319928766802/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "h": 62,
+                                        "w": 62,
+                                        "x": 77,
+                                        "y": 402
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "h": 62,
+                                        "w": 62,
+                                        "x": 77,
+                                        "y": 402
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1978923316921438208",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "media_key": "3_1978923316921438208",
+                        "media_results": {
+                            "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt2jEWe1xAACgACG3aMRlIXQVIAAA==",
+                            "result": {
+                                "__typename": "ApiMedia",
+                                "id": "QXBpTWVkaWE6DAABCgABG3aMRZ7XEAAKAAIbdoxGUhdBUgAA",
+                                "media_key": "3_1978923316921438208"
+                            }
+                        },
+                        "media_url_https": "https://pbs.twimg.com/media/G3aMRZ7XEAAJZ74.jpg",
+                        "original_info": {
+                            "focus_rects": [
+                                {
+                                    "h": 403,
+                                    "w": 720,
+                                    "x": 0,
+                                    "y": 303
+                                },
+                                {
+                                    "h": 720,
+                                    "w": 720,
+                                    "x": 0,
+                                    "y": 144
+                                },
+                                {
+                                    "h": 821,
+                                    "w": 720,
+                                    "x": 0,
+                                    "y": 94
+                                },
+                                {
+                                    "h": 960,
+                                    "w": 480,
+                                    "x": 120,
+                                    "y": 0
+                                },
+                                {
+                                    "h": 960,
+                                    "w": 720,
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            "height": 960,
+                            "width": 720
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 960,
+                                "w": 720
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/vh5lA3wgUX"
+                    }
+                ]
+            },
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1978886494480736517",
+            "url": "https://x.com/Darlchin/status/1978886494480736517",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1978886494480736517",
+            "text": "He needs to understand this",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 40,
+            "createdAt": "Thu Oct 16 18:11:20 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978886494480736517",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1978881474339225922",
+            "url": "https://x.com/HappierMeApp/status/1978881474339225922",
+            "twitterUrl": "https://twitter.com/HappierMeApp/status/1978881474339225922",
+            "text": "We’ve all said something we didn’t mean in the heat of the moment.\nBut those few seconds between feeling and reacting?\nThat’s where self-awareness lives.\nHere’s how to find it. 👇\n#Mindfulness #EmotionalHealth #HappierMe",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 51,
+            "createdAt": "Thu Oct 16 17:51:23 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978881474339225922",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "HappierMeApp",
+                "url": "https://x.com/HappierMeApp",
+                "twitterUrl": "https://twitter.com/HappierMeApp",
+                "id": "1417714456436502533",
+                "name": "HappierMe",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1734417267331317760/SvIhJ13P_normal.png",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1417714456436502533/1702352277",
+                "description": "Your guide to being the best version of yourself. Learn to overcome stress and anxiety, have healthy relationships, and live with a sense of peace.",
+                "location": "United Kingdom",
+                "followers": 367,
+                "following": 402,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Wed Jul 21 05:14:55 +0000 2021",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "happierme.app",
+                                "expanded_url": "http://www.happierme.app",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/4Sr11nTAS6"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 2805,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 1624,
+                "statusesCount": 3061,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1972616538198012276"
+                ],
+                "profile_bio": {
+                    "description": "Your guide to being the best version of yourself. Learn to overcome stress and anxiety, have healthy relationships, and live with a sense of peace.",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "happierme.app",
+                                    "expanded_url": "http://www.happierme.app",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/4Sr11nTAS6"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            179,
+                            191
+                        ],
+                        "text": "Mindfulness"
+                    },
+                    {
+                        "indices": [
+                            192,
+                            208
+                        ],
+                        "text": "EmotionalHealth"
+                    },
+                    {
+                        "indices": [
+                            209,
+                            219
+                        ],
+                        "text": "HappierMe"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "tweet",
+            "id": "1978849107843150069",
+            "url": "https://x.com/runRickyRun8/status/1978849107843150069",
+            "twitterUrl": "https://twitter.com/runRickyRun8/status/1978849107843150069",
+            "text": "Everyone who is dealing with anxiety or anything of that matter, I hope you find peace &amp; love within yourself. Everybody is fighting a battle that no one understands &amp; you will overcome. I’m living it and it has ruined my life but I won’t ever give up.",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 17,
+            "createdAt": "Thu Oct 16 15:42:47 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978849107843150069",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "runRickyRun8",
+                "url": "https://x.com/runRickyRun8",
+                "twitterUrl": "https://twitter.com/runRickyRun8",
+                "id": "1228589666045243393",
+                "name": "Jr, Rick(y), Slick☘️",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1911959683566387200/0CyCUf4U_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1228589666045243393/1747148332",
+                "description": "",
+                "location": "God’s Path",
+                "followers": 224,
+                "following": 360,
+                "status": "",
+                "canDm": true,
+                "canMediaTag": true,
+                "createdAt": "Sat Feb 15 08:00:02 +0000 2020",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 16850,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 200,
+                "statusesCount": 5366,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1978794904043352307",
+            "url": "https://x.com/Darlchin/status/1978794904043352307",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1978794904043352307",
+            "text": "I need answers",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 48,
+            "createdAt": "Thu Oct 16 12:07:24 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978794904043352307",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        },
+        {
+            "type": "tweet",
+            "id": "1978747432205774888",
+            "url": "https://x.com/Darlchin/status/1978747432205774888",
+            "twitterUrl": "https://twitter.com/Darlchin/status/1978747432205774888",
+            "text": "Loving too much is bad",
+            "source": "Twitter for iPhone",
+            "retweetCount": 1,
+            "replyCount": 0,
+            "likeCount": 1,
+            "quoteCount": 0,
+            "viewCount": 70,
+            "createdAt": "Thu Oct 16 08:58:45 +0000 2025",
+            "lang": "en",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1978747432205774888",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "Darlchin",
+                "url": "https://x.com/Darlchin",
+                "twitterUrl": "https://twitter.com/Darlchin",
+                "id": "1499920046788947971",
+                "name": "Darlchin Autos Global🇳🇬🇬🇭🇿🇦🇺🇬🇹🇷🇮🇳",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1957711631871311880/wEOST9L2_normal.jpg",
+                "coverPicture": "https://pbs.twimg.com/profile_banners/1499920046788947971/1755757363",
+                "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                "location": "",
+                "followers": 2471,
+                "following": 0,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Sat Mar 05 01:29:51 +0000 2022",
+                "entities": {
+                    "description": {}
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 343,
+                "statusesCount": 56225,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [
+                    "1979457308926079448"
+                ],
+                "profile_bio": {
+                    "description": "dealer in all kind of Toyota and lexus spare parts such as upgrade bumpers, front grill,rear light ,head lamp and many more accessories related to body parts.",
+                    "entities": {
+                        "description": {}
+                    },
+                    "withheld_in_countries": []
+                }
+            },
+            "extendedEntities": {},
+            "card": null,
+            "place": {},
+            "entities": {}
+        }
+    ],
+    "has_next": true,
+    "has_next_page": true,
+    "next_cursor": "DAABCgABG3iBTbP__-oKAAIbdexORNdwKAgAAwAAAAIAAA",
+    "status": "success",
+    "msg": "success"
+}

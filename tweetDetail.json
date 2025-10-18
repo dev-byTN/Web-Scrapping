@@ -1,0 +1,88 @@
+{ 
+    "tweets" : [ 
+        {
+            "type": "tweet",
+            "id": "1979471480799810047",
+            "url": "https://x.com/David6282138286/status/1979471480799810047",
+            "twitterUrl": "https://twitter.com/David6282138286/status/1979471480799810047",
+            "text": "https://t.co/Ml47RFiVgj https://t.co/mRqh91U7LT",
+            "source": "Twitter for iPhone",
+            "retweetCount": 0,
+            "replyCount": 0,
+            "likeCount": 0,
+            "quoteCount": 0,
+            "viewCount": 1,
+            "createdAt": "Sat Oct 18 08:55:52 +0000 2025",
+            "lang": "zxx",
+            "bookmarkCount": 0,
+            "isReply": false,
+            "inReplyToId": null,
+            "conversationId": "1979471480799810047",
+            "inReplyToUserId": null,
+            "inReplyToUsername": null,
+            "author": {
+                "type": "user",
+                "userName": "David6282138286",
+                "url": "https://x.com/David6282138286",
+                "twitterUrl": "https://twitter.com/David6282138286",
+                "id": "1970810294461972480",
+                "name": "David",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1970810463228243968/ab-fUsSq_normal.jpg",
+                "coverPicture": "",
+                "description": "Nature is nothing without psychedelic spiritual healing and tripping 🍄❤️🔥💊👽🍫🌈",
+                "location": "",
+                "followers": 1,
+                "following": 15,
+                "status": "",
+                "canDm": false,
+                "canMediaTag": true,
+                "createdAt": "Wed Sep 24 11:19:37 +0000 2025",
+                "entities": {
+                    "description": {},
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "signal.group/#CjQKIBBzOBTyH…",
+                                "expanded_url": "https://signal.group/#CjQKIBBzOBTyHvgYthJGue39GvJEHdtRos30Yh1TwNQu8EB2EhDk6jlfkRA6k6CA1wqRN9xU",
+                                "indices": [
+                                    0,
+                                    23
+                                ],
+                                "url": "https://t.co/enQ6oPp7za"
+                            }
+                        ]
+                    }
+                },
+                "favouritesCount": 1,
+                "hasCustomTimelines": true,
+                "isTranslator": false,
+                "mediaCount": 18,
+                "statusesCount": 18,
+                "withheldInCountries": [],
+                "affiliatesHighlightedLabel": {},
+                "possiblySensitive": false,
+                "pinnedTweetIds": [],
+                "profile_bio": {
+                    "description": "Nature is nothing without psychedelic spiritual healing and tripping 🍄❤️🔥💊👽🍫🌈",
+                    "entities": {
+                        "description": {},
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "signal.group/#CjQKIBBzOBTyH…",
+                                    "expanded_url": "https://signal.group/#CjQKIBBzOBTyHvgYthJGue39GvJEHdtRos30Yh1TwNQu8EB2EhDk6jlfkRA6k6CA1wqRN9xU",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ],
+                                    "url": "https://t.co/enQ6oPp7za"
+                                }
+                            ]
+                        }
+                    },
+                    "withheld_in_countries": []
+                }
+            }
+        }
+    ]
+}
