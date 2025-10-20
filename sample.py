@@ -1,77 +1,131 @@
-from requests_oauthlib import OAuth1Session
+import requests
+import time
 import os
 import json
-
-# To set your enviornment variables in your terminal run the following line:
-# export 'CONSUMER_KEY'='<your_consumer_key>'
-# export 'CONSUMER_SECRET'='<your_consumer_secret>'
-
-consumer_key = os.environ.get("CONSUMER_KEY")
-consumer_secret = os.environ.get("CONSUMER_SECRET")
-
-# You can adjust ids to include a single Tweets
-# Or you can add to up to 100 comma-separated IDs
-params = {"ids": "1278747501642657792", "tweet.fields": "created_at"}
-# Tweet fields are adjustable.
-# Options include:
-# attachments, author_id, context_annotations,
-# conversation_id, created_at, entities, geo, id,
-# in_reply_to_user_id, lang, non_public_metrics, organic_metrics,
-# possibly_sensitive, promoted_metrics, public_metrics, referenced_tweets,
-# source, text, and withheld
-
-request_token_url = "https://api.twitter.com/oauth/request_token"
-oauth = OAuth1Session(consumer_key, client_secret=consumer_secret)
-
-try:
-    fetch_response = oauth.fetch_request_token(request_token_url)
-except ValueError:
-    print(
-        "There may have been an issue with the consumer_key or consumer_secret you entered."
-    )
-
-resource_owner_key = fetch_response.get("oauth_token")
-resource_owner_secret = fetch_response.get("oauth_token_secret")
-print("Got OAuth token: %s" % resource_owner_key)
-
-# Get authorization
-base_authorization_url = "https://api.twitter.com/oauth/authorize"
-authorization_url = oauth.authorization_url(base_authorization_url)
-print("Please go here and authorize: %s" % authorization_url)
-verifier = input("Paste the PIN here: ")
-
-# Get the access token
-access_token_url = "https://api.twitter.com/oauth/access_token"
-oauth = OAuth1Session(
-    consumer_key,
-    client_secret=consumer_secret,
-    resource_owner_key=resource_owner_key,
-    resource_owner_secret=resource_owner_secret,
-    verifier=verifier,
-)
-oauth_tokens = oauth.fetch_access_token(access_token_url)
+from typing import List, Dict
+from dotenv import load_dotenv
 
 
-access_token = oauth_tokens["oauth_token"]
-access_token_secret = oauth_tokens["oauth_token_secret"]
+def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
 
-# Make the request
-oauth = OAuth1Session(
-    consumer_key,
-    client_secret=consumer_secret,
-    resource_owner_key=access_token,
-    resource_owner_secret=access_token_secret,
-)
+    headers = {"x-api-key": api_key}
+    all_tweets = []
+    seen_tweet_ids = set()  
+    cursor = None
+    last_min_id = None
+    max_retries = 50
 
-response = oauth.get(
-    "https://api.twitter.com/2/tweets", params=params
-)
+    while True:
+        
+        params = {
+            "query": query,
+            "queryType": "Latest"
+        }
 
-if response.status_code != 200:
-    raise Exception(
-        "Request returned an error: {} {}".format(response.status_code, response.text)
-    )
+        # Add cursor if available (for regular pagination)
+        if cursor:
+            params["cursor"] = cursor
+        elif last_min_id:
+            # Add max_id if available (for fetching beyond initial limit)
+            params["query"] = f"{query} max_id:{last_min_id}"
 
-print("Response code: {}".format(response.status_code))
-json_response = response.json()
-print(json.dumps(json_response, indent=4, sort_keys=True))
+        retry_count = 0
+        while retry_count < max_retries:
+            try:
+                response = requests.get(base_url, headers=headers, params=params)
+                response.raise_for_status() 
+                data = response.json()
+
+                tweets = data.get("tweets", [])
+                has_next_page = data.get("has_next_page", False)
+                cursor = data.get("next_cursor", None)
+
+                new_tweets = [tweet for tweet in tweets if tweet.get("id") not in seen_tweet_ids]
+                
+                for tweet in new_tweets:
+                    seen_tweet_ids.add(tweet.get("id"))
+                    all_tweets.append(tweet)
+
+                # If no new tweets and no next page, break the loop
+                if not new_tweets and not has_next_page:
+                    return all_tweets
+
+                # Update last_min_id from the last tweet if available
+                if new_tweets:
+                    last_min_id = new_tweets[-1].get("id")
+
+                # If no next page but we have new tweets, try with max_id
+                if not has_next_page and new_tweets:
+                    cursor = None  # Reset cursor for max_id pagination
+                    break
+
+                # If has next page, continue with cursor
+                if has_next_page:
+                    break
+
+            except requests.exceptions.RequestException as e:
+                retry_count += 1
+                if retry_count == max_retries:
+                    print(f"Failed to fetch tweets after {max_retries} attempts: {str(e)}")
+                    return all_tweets
+
+                if hasattr(response, 'status_code') and response.status_code == 429: #Rate limit error
+                    print("Rate limit reached. Waiting for 1 second...")
+                    time.sleep(1)  
+                else:
+                    print(f"Error occurred: {str(e)}. Retrying {retry_count}/{max_retries}")
+                    time.sleep(2 ** retry_count)  
+
+        # If no more pages and no new tweets with max_id, we're done
+        if not has_next_page and not new_tweets:
+            break
+
+    return all_tweets
+
+
+def saveDataIntoJson(tweets):
+    
+    with open("depressionTweets.json", "w") as f:
+        json.dump(tweets,f, indent=2)
+        f.close()
+        
+def readJsonFile():
+    
+    with open("depressionTweets.json", "r") as f:
+        data = json.load(f)
+        
+        return data
+        
+        
+def getRelevantData(data):
+    
+    listOfTweet = []
+    for i in data:
+        
+        tweet = i["text"]
+        date = i["createdAt"]
+        
+        authorInfo = i["author"]
+        for j in authorInfo:
+            name = authorInfo["name"]
+            username = authorInfo["userName"]
+            followers = authorInfo["followers"]
+            following = authorInfo["following"]
+            creadtedAt = authorInfo["createdAt"]
+            
+        list = [username, tweet, date, name, creadtedAt, followers, following]
+        listOfTweet.append(list)
+    print(list)
+    
+    
+if __name__ == "__main__":
+    
+    load_dotenv()
+    api_key =  os.getenv("API_KEY")
+    
+    base_url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+    query = "depression lang:fr"
+    tweets = fetch_all_tweets(query, api_key, base_url)
+    
+    print(f"Fetched {len(tweets)} unique tweets")
+    
