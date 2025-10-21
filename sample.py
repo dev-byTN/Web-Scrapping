@@ -3,6 +3,8 @@ import time
 import os
 import json
 from typing import List, Dict
+import pandas as pd
+import numpy as np
 from dotenv import load_dotenv
 
 
@@ -91,10 +93,10 @@ def saveDataIntoJson(tweets):
         
 def readJsonFile():
     
-    with open("depressionTweets.json", "r") as f:
+    with open("community.json", "r") as f:
         data = json.load(f)
         
-        return data
+    return data
         
         
 def getRelevantData(data):
@@ -115,7 +117,23 @@ def getRelevantData(data):
             
         list = [username, tweet, date, name, creadtedAt, followers, following]
         listOfTweet.append(list)
-    print(list)
+        
+    return listOfTweet
+    
+
+def saveTweetsDataFrame(data):
+    
+    dt = pd.DataFrame(data, columns=["username", 
+                                   "tweet", 
+                                   "date", 
+                                   "name", 
+                                   "creation", 
+                                   "followers", 
+                                   "following"
+                                ])
+    dt.to_csv("dirtytweets.csv")
+    
+    return dt
     
     
 if __name__ == "__main__":
@@ -125,7 +143,9 @@ if __name__ == "__main__":
     
     base_url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     query = "depression lang:fr"
-    tweets = fetch_all_tweets(query, api_key, base_url)
+    #tweets = fetch_all_tweets(query, api_key, base_url)
     
-    print(f"Fetched {len(tweets)} unique tweets")
-    
+    #print(f"Fetched {len(tweets)} unique tweets")
+    data = readJsonFile()
+    tweets = getRelevantData(data)
+    saveTweetsDataFrame(tweets)
