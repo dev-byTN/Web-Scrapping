@@ -131,7 +131,7 @@ def saveTweetsDataFrame(data):
                                    "followers", 
                                    "following"
                                 ])
-    dt.to_csv("dirtytweets.csv")
+    dt.to_csv("dirtytweets.csv", index=False)
     
     return dt
     
