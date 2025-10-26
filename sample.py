@@ -7,7 +7,8 @@ from typing import List, Dict
 import pandas as pd
 import numpy as np
 from dotenv import load_dotenv
-import papermill as pm
+import nbformat
+from nbclient import NotebookClient
 
 
 def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
@@ -77,8 +78,7 @@ def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their 
                     print("Rate limit reached. Waiting for 1 second...")
                     time.sleep(1)  
                 else:
-                    print(f"Error occurred: {str(e)}. Retrying {retry_count}/{max_retries}")
-                    time.sleep(2 ** retry_count)  
+                    break
 
         # If no more pages and no new tweets with max_id, we're done
         if not has_next_page and not new_tweets:
@@ -87,11 +87,13 @@ def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their 
     return all_tweets
 
 
-def saveDataIntoJson(tweets):
+def saveNotebookIntoJson(): #to execute Jupyter Notebook file
     
-    with open("depressionTweets.json", "w") as f:
-        json.dump(tweets,f, indent=2)
-        f.close()
+    with open("cleaning.ipynb", "r") as f:
+        nb = nbformat.read(f, as_version=4)
+        
+    client = NotebookClient(nb)
+    client.execute()
         
 def readJsonFile():
     
@@ -143,12 +145,13 @@ if __name__ == "__main__":
     
     load_dotenv()
     api_key =  os.getenv("API_KEY")
-    
     base_url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     query = "depression lang:fr"
-    #tweets = fetch_all_tweets(query, api_key, base_url)
     
-    #print(f"Fetched {len(tweets)} unique tweets")
-    data = readJsonFile()
-    tweets = getRelevantData(data)
-    saveTweetsDataFrame(tweets)
+    fetch = fetch_all_tweets(query, api_key, base_url)
+    print(f"Fetched {len(fetch)} unique tweets")
+    
+    #data = readJsonFile()
+    data = getRelevantData(fetch)
+    saveTweetsDataFrame(data)
+    saveNotebookIntoJson()
