@@ -1,11 +1,13 @@
 import requests
 import time
+import emoji
 import os
 import json
 from typing import List, Dict
 import pandas as pd
 import numpy as np
 from dotenv import load_dotenv
+import papermill as pm
 
 
 def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
@@ -136,6 +138,7 @@ def saveTweetsDataFrame(data):
     return dt
     
     
+
 if __name__ == "__main__":
     
     load_dotenv()
