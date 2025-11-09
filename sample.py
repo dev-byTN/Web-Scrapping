@@ -3,6 +3,7 @@ import time
 import emoji
 import os
 import json
+from json import JSONEncoder
 from typing import List, Dict
 import pandas as pd
 import numpy as np
@@ -11,6 +12,33 @@ import nbformat
 from nbclient import NotebookClient
 
 
+class Tweet:
+    def __init__(self):
+        self.username = "username"
+        self.tweet = "tweet"
+        self.date = ""
+        self.name = "name"
+        self.createdAt = ""
+        self.followers = 0
+        self.following = 0
+        
+    def __init__(self, username, tweet, date, name, createdAt, followers, following):
+        self.username = username
+        self.tweet = tweet
+        self.date = date
+        self.name = name
+        self.createdAt = createdAt
+        self.followers = followers
+        self.following = following
+        
+    def toString(self):
+        return self.username + ", " + self.tweet + ", " + self.date + ", " + self.name + ", " + self.createdAt + ", " + self.followers + ", " + self.following
+       
+    
+class TweetEncoder(JSONEncoder):
+        def default(self, o):
+            return o.__dict__ 
+        
 def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
 
     headers = {"x-api-key": api_key}
@@ -105,7 +133,9 @@ def readJsonFile():
         
 def getRelevantData(data):
     
-    listOfTweet = []
+    listOfTweet = [Tweet]
+    listTweet = []
+    list = []
     for i in data:
         
         tweet = i["text"]
@@ -117,12 +147,22 @@ def getRelevantData(data):
             username = authorInfo["userName"]
             followers = authorInfo["followers"]
             following = authorInfo["following"]
-            creadtedAt = authorInfo["createdAt"]
+            createdAt = authorInfo["createdAt"]
             
-        list = [username, tweet, date, name, creadtedAt, followers, following]
+        objectTweet = Tweet(username, tweet, date, name, createdAt, followers, following)    
+        list = [objectTweet]
+        list2 = { "username" : username,
+                  "tweet" : tweet,
+                  "date" : date,
+                  "name" : name,
+                  "createdAt" : createdAt,
+                  "followers" : followers,
+                  "following" : following
+                } 
         listOfTweet.append(list)
+        listTweet.append(list2)
         
-    return listOfTweet
+    return listOfTweet, listTweet
     
 
 def saveTweetsDataFrame(data):
@@ -139,7 +179,11 @@ def saveTweetsDataFrame(data):
     
     return dt
     
+def test(data):
     
+    with open("test.json", "w", encoding="utf8") as f:
+        json.dump(data, f)
+    f.close()
 
 if __name__ == "__main__":
     
@@ -148,10 +192,11 @@ if __name__ == "__main__":
     base_url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     query = "depression lang:fr"
     
-    fetch = fetch_all_tweets(query, api_key, base_url)
-    print(f"Fetched {len(fetch)} unique tweets")
+    #fetch = fetch_all_tweets(query, api_key, base_url)
+    #print(f"Fetched {len(fetch)} unique tweets")
     
-    #data = readJsonFile()
-    data = getRelevantData(fetch)
-    saveTweetsDataFrame(data)
-    saveNotebookIntoJson()
+    data = readJsonFile()
+    resultClass, resultHard = getRelevantData(data)
+    test(resultHard)
+    #saveTweetsDataFrame(result)
+    #saveNotebookIntoJson()
