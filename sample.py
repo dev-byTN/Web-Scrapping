@@ -13,14 +13,8 @@ from nbclient import NotebookClient
 
 
 class Tweet:
-    def __init__(self):
-        self.username = "username"
-        self.tweet = "tweet"
-        self.date = ""
-        self.name = "name"
-        self.createdAt = ""
-        self.followers = 0
-        self.following = 0
+    def __init__(self, items=None):
+        self.l = items
         
     def __init__(self, username, tweet, date, name, createdAt, followers, following):
         self.username = username
@@ -31,13 +25,14 @@ class Tweet:
         self.followers = followers
         self.following = following
         
-    def toString(self):
-        return self.username + ", " + self.tweet + ", " + self.date + ", " + self.name + ", " + self.createdAt + ", " + self.followers + ", " + self.following
+    def __str__(self):
+        return ( f" {self.username}, {self.tweet}, {self.date}, {self.name}, {self.createdAt}, {self.followers}, {self.following}")
        
-    
-class TweetEncoder(JSONEncoder):
-        def default(self, o):
-            return o.__dict__ 
+    def toJSON(self): # To make the Object JSON Seriable
+        return json.dumps(
+            self,
+            default=lambda o: o.__dict__)
+
         
 def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
 
@@ -133,9 +128,7 @@ def readJsonFile():
         
 def getRelevantData(data):
     
-    listOfTweet = [Tweet]
-    listTweet = []
-    list = []
+    listOfTweet = []
     for i in data:
         
         tweet = i["text"]
@@ -149,21 +142,11 @@ def getRelevantData(data):
             following = authorInfo["following"]
             createdAt = authorInfo["createdAt"]
             
-        objectTweet = Tweet(username, tweet, date, name, createdAt, followers, following)    
-        list = [objectTweet]
-        list2 = { "username" : username,
-                  "tweet" : tweet,
-                  "date" : date,
-                  "name" : name,
-                  "createdAt" : createdAt,
-                  "followers" : followers,
-                  "following" : following
-                } 
-        listOfTweet.append(list)
-        listTweet.append(list2)
+        objectTweet = Tweet(username, tweet, date, name, createdAt, followers, following)   
+        objectTweet = json.dumps(objectTweet.toJSON()) #Save it in JSON Format
+        listOfTweet.append(objectTweet)
         
-    return listOfTweet, listTweet
-    
+    return listOfTweet
 
 def saveTweetsDataFrame(data):
     
@@ -182,7 +165,7 @@ def saveTweetsDataFrame(data):
 def test(data):
     
     with open("test.json", "w", encoding="utf8") as f:
-        json.dump(data, f)
+        json.dump(data, f, sort_keys=False)
     f.close()
 
 if __name__ == "__main__":
@@ -196,7 +179,8 @@ if __name__ == "__main__":
     #print(f"Fetched {len(fetch)} unique tweets")
     
     data = readJsonFile()
-    resultClass, resultHard = getRelevantData(data)
-    test(resultHard)
+    resultClass = getRelevantData(data)
+    #print(repr(resultClass))
+    test(resultClass)
     #saveTweetsDataFrame(result)
     #saveNotebookIntoJson()
