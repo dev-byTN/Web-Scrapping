@@ -47,6 +47,7 @@ class Tweet:
         
 def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their Documentation
 
+    
     headers = {"x-api-key": api_key}
     all_tweets = []
     seen_tweet_ids = set()  
@@ -112,7 +113,10 @@ def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their 
                     print("Rate limit reached. Waiting for 1 second...")
                     time.sleep(1)  
                 else:
-                    break
+                    break  
+                    print(f"Error occurred: {str(e)}. Retrying {retry_count}/{max_retries}")
+                    time.sleep(2 ** retry_count)
+                    
 
         # If no more pages and no new tweets with max_id, we're done
         if not has_next_page and not new_tweets:
@@ -121,7 +125,7 @@ def fetch_all_tweets(query: str, api_key: str, url) -> List[Dict]:  #From their 
     return all_tweets
 
 
-def saveNotebookIntoJson(): #to execute Jupyter Notebook file
+def runNotebook(): #to execute Jupyter Notebook file
     
     with open("cleaning.ipynb", "r") as f:
         nb = nbformat.read(f, as_version=4)
@@ -159,19 +163,6 @@ def getRelevantData(data):
         
     return listOfTweet
 
-def saveTweetsDataFrame(data):
-    
-    dt = pd.DataFrame(data, columns=["username", 
-                                   "tweet", 
-                                   "date", 
-                                   "name", 
-                                   "creation", 
-                                   "followers", 
-                                   "following"
-                                ])
-    dt.to_csv("dirtytweets.csv", index=False)
-    
-    return dt
     
 def saveTweetsInJson(data):
     
@@ -187,14 +178,12 @@ if __name__ == "__main__":
     query = "depression lang:fr"
     
     #First we fetch the tweers
-    #fetch = fetch_all_tweets(query, api_key, base_url)
-    #print(f"Fetched {len(fetch)} unique tweets")
+    fetch = fetch_all_tweets(query, api_key, base_url)
+    print(f"Fetched {len(fetch)} unique tweets")
     
     #Then I get the informations that I want
-    data = readJsonFile()
-    resultClass = getRelevantData(data)
-    saveTweetsInJson(resultClass)
+    result = getRelevantData(fetch)
+    saveTweetsInJson(result)
     
     #I clean it into a Jupyter notebook file
-    #saveTweetsDataFrame(result)
-    #saveNotebookIntoJson()
+    runNotebook()
