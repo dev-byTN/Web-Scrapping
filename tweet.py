@@ -25,8 +25,19 @@ class Tweet:
         self.followers = followers
         self.following = following
         
+    def toDict(self):
+        
+        return {  "username" : self.username,
+                  "tweet" : self.tweet,
+                  "date" : self.date,
+                  "name" : self.name,
+                  "createdAt" : self.createdAt,
+                  "followers" : self.followers,
+                  "following" : self.following
+                }
+        
     def __str__(self):
-        return ( f" {self.username}, {self.tweet}, {self.date}, {self.name}, {self.createdAt}, {self.followers}, {self.following}")
+        return { f" {self.username}, {self.tweet}, {self.date}, {self.name}, {self.createdAt}, {self.followers}, {self.following}"}
        
     def toJSON(self): # To make the Object JSON Seriable
         return json.dumps(
@@ -143,7 +154,7 @@ def getRelevantData(data):
             createdAt = authorInfo["createdAt"]
             
         objectTweet = Tweet(username, tweet, date, name, createdAt, followers, following)   
-        objectTweet = json.dumps(objectTweet.toJSON()) #Save it in JSON Format
+        objectTweet = objectTweet.toDict() #Save it in JSON Format
         listOfTweet.append(objectTweet)
         
     return listOfTweet
@@ -162,9 +173,9 @@ def saveTweetsDataFrame(data):
     
     return dt
     
-def test(data):
+def saveTweetsInJson(data):
     
-    with open("test.json", "w", encoding="utf8") as f:
+    with open("fetchedTweets.json", "w", encoding="utf8") as f:
         json.dump(data, f, sort_keys=False)
     f.close()
 
@@ -175,12 +186,15 @@ if __name__ == "__main__":
     base_url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     query = "depression lang:fr"
     
+    #First we fetch the tweers
     #fetch = fetch_all_tweets(query, api_key, base_url)
     #print(f"Fetched {len(fetch)} unique tweets")
     
+    #Then I get the informations that I want
     data = readJsonFile()
     resultClass = getRelevantData(data)
-    #print(repr(resultClass))
-    test(resultClass)
+    saveTweetsInJson(resultClass)
+    
+    #I clean it into a Jupyter notebook file
     #saveTweetsDataFrame(result)
     #saveNotebookIntoJson()
