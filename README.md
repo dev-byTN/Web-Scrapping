@@ -2,17 +2,17 @@
 
 The goal here is to classify all the user who tweets about depression.
 
-# The steps
+## The steps
 
-1- Fetch all the tweets containing the word "depression" on twitter
-2- Clean the dataset
-3- Creation of the web app
-4- Contenarize the application
-5- Save the tweets into a database
-6- Use CI/CD 
-7- Push the application on production
+1. Fetch all the tweets containing the word "depression" on twitter 
+2. Clean the dataset
+3. Creation of the web app
+4. Contenarize the application
+5. Save the tweets into a database
+6. Use CI/CD 
+7. Push the application on production
 
-# Possible evolution
+## Possible evolution
 
 Create a system who put each user into a group of depression
 Send them through dm generic message about help
