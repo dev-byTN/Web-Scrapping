@@ -11,8 +11,14 @@ body {
     align-items: center;
     justify-content: center; /* Centers the h1 */
     background-color: #292929; 
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px grey;
     position: relative; 
+}
+
+nav {
+    position:relative;
+    background-color: #292929;
+    border-bottom: solid 1px white;
 }
 
 .topnav h2 {
@@ -21,17 +27,27 @@ body {
 }
 
 .topnav img {
-    position: relative;
+    position: absolute;
     width: 50px;  
     height: 60px;
-    left: 200px;
+    left: 35px;
+}
+
+.topnav form {
+    position: absolute;
+    left: 110px;
+}
+
+.topnav input[type="text"] {
+    color: #00c2ff;
+    background-color: #292929;
 }
 
 nav ul{
     display:flex;
     justify-content: center;
-    padding: 20px;
-    background-color: #1f1f1f;
+    /*padding: 20px;
+    background-color: #1f1f1f;*/
     gap:80px;
     flex-wrap: wrap;
     list-style: none;
