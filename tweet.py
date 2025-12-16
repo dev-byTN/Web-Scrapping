@@ -193,4 +193,4 @@ if __name__ == "__main__":
     saveTweetsInJson(result)
     
     #I clean it into a Jupyter notebook file
-    #runNotebook()
+    runNotebook()
