@@ -41,9 +41,8 @@ class Tweet:
                 }
         
     def __str__(self):
-        return { f" {self.username}, {self.tweet}, {self.url}, {self.date}, {
-                    self.depressionType}, {self.createdAt}, {self.followers}, {
-                    self.following}, {self.photo}"
+        return { f" {self.username}, {self.tweet}, {self.url}, {self.date}, {self.depressionType}, \
+                    {self.createdAt}, {self.followers}, {self.following}, {self.photo}"
                 }
        
     def toJSON(self): # To make the Object JSON Seriable
@@ -142,7 +141,7 @@ def runNotebook(): #to execute Jupyter Notebook file
         
 def readJsonFile():
     
-    with open("../ressource/community.json", "r") as f:
+    with open("ressource/community.json", "r") as f:
         data = json.load(f)
         
     return data
@@ -174,7 +173,7 @@ def getRelevantData(data):
     
 def saveTweetsInJson(data):
     
-    with open("../ressource/fetchedTweets.json", "w", encoding="utf8") as f:
+    with open("ressource/fetchedTweets.json", "w", encoding="utf8") as f:
         json.dump(data, f, sort_keys=False)
     f.close()
 
