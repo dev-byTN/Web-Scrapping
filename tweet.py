@@ -16,28 +16,35 @@ class Tweet:
     def __init__(self, items=None):
         self.l = items
         
-    def __init__(self, username, tweet, date, name, createdAt, followers, following):
+    def __init__(self, username, tweet, url, date, depressionType, createdAt, followers, following, photo):
         self.username = username
+        self.url = url
         self.tweet = tweet
         self.date = date
-        self.name = name
+        self.depressionType = depressionType
         self.createdAt = createdAt
         self.followers = followers
         self.following = following
+        self.photo = photo
         
     def toDict(self):
         
         return {  "username" : self.username,
                   "tweet" : self.tweet,
+                  "url" : self.url,
                   "date" : self.date,
-                  "name" : self.name,
+                  "depression" : self.depressionType,
                   "createdAt" : self.createdAt,
                   "followers" : self.followers,
-                  "following" : self.following
+                  "following" : self.following,
+                  "photo" : self.photo
                 }
         
     def __str__(self):
-        return { f" {self.username}, {self.tweet}, {self.date}, {self.name}, {self.createdAt}, {self.followers}, {self.following}"}
+        return { f" {self.username}, {self.tweet}, {self.url}, {self.date}, {
+                    self.depressionType}, {self.createdAt}, {self.followers}, {
+                    self.following}, {self.photo}"
+                }
        
     def toJSON(self): # To make the Object JSON Seriable
         return json.dumps(
@@ -148,16 +155,17 @@ def getRelevantData(data):
         
         tweet = i["text"]
         date = i["createdAt"]
+        url = i["url"]
         
         authorInfo = i["author"]
         for j in authorInfo:
-            name = authorInfo["name"]
             username = authorInfo["userName"]
             followers = authorInfo["followers"]
             following = authorInfo["following"]
             createdAt = authorInfo["createdAt"]
+            photo = authorInfo["profilePicture"]
             
-        objectTweet = Tweet(username, tweet, date, name, createdAt, followers, following)   
+        objectTweet = Tweet(username, tweet, url, date, None, createdAt, followers, following, photo)   
         objectTweet = objectTweet.toDict() #Save it in JSON Format
         listOfTweet.append(objectTweet)
         
@@ -178,12 +186,12 @@ if __name__ == "__main__":
     query = "depression lang:fr"
     
     #First we fetch the tweers
-    fetch = fetch_all_tweets(query, api_key, base_url)
-    print(f"Fetched {len(fetch)} unique tweets")
-    
+    #fetch = fetch_all_tweets(query, api_key, base_url)
+    #print(f"Fetched {len(fetch)} unique tweets")
+    fetch = readJsonFile()
     #Then I get the informations that I want
     result = getRelevantData(fetch)
     saveTweetsInJson(result)
     
     #I clean it into a Jupyter notebook file
-    runNotebook()
+    #runNotebook()
