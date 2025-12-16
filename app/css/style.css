@@ -18,7 +18,7 @@ body {
 nav {
     position:relative;
     background-color: #292929;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px grey;
 }
 
 .topnav h2 {
@@ -46,8 +46,6 @@ nav {
 nav ul{
     display:flex;
     justify-content: center;
-    /*padding: 20px;
-    background-color: #1f1f1f;*/
     gap:80px;
     flex-wrap: wrap;
     list-style: none;
@@ -65,3 +63,62 @@ body h1{
     font-size: 40px;
 }
 
+#tweetsList {
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    max-width: 1600px; 
+    margin: 10px auto;
+    color: white;
+    list-style: none;
+}
+
+.tweet {
+  background: #2a2a2a;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tweet:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.6);
+}
+
+.tweet img {
+    width: 100px;
+    max-height:240px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.tweet p {
+    color : #aaa;
+    line-height: 17px;
+}
+
+.tweet a {
+    text-decoration: none;
+    background-color: #00a3d6;
+    color: #000;
+    border: none;
+    padding: 12px 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.tweet a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #292929;
+    text-align: center;
+    color: #aaa;
+    padding: 4px;
+}

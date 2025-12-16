@@ -1,9 +1,6 @@
 // Source - https://stackoverflow.com/a
-// Posted by Stacey Reiman
-// Retrieved 2025-12-16, License - CC BY-SA 3.0
 
-/* I put your JSON into an external file, loaded from github */
-var url = "../../ressource/fetchedTweets.json";
+var url = "https://raw.githubusercontent.com/dev-byTN/Web-Scrapping/refs/heads/twitter/ressource/cleanedTweets.json";
 
 /* this tells the page to wait until jQuery has loaded, so you can use the Ajax call */
 
@@ -16,13 +13,24 @@ $(document).ready(function(){
       },
     success:function(results){
       console.log(results);
-  /* the results is your json, you can reference the elements directly by using it here, without creating any additional variables */
   
       var tweetsList = document.getElementById("tweetsList");
 
       results.forEach(function(element) {
-      tweetsList.insertAdjacentHTML( 'beforeend',"<li>" + "name : " + element.username+ " </li>");
-      }); // end of forEach
-    }  // end of success fn
-   }) // end of Ajax call
- }) // end of $(document).ready() function
+        tweetsList.insertAdjacentHTML(
+        "beforeend",
+        `
+        <div class="tweet">
+            <img src="${element.photo}" alt="">
+            <h3>${element.username}</h3>
+            <p>Depression : ${element.depression}</p>
+            <p>Followers : ${element.followers}</p>
+            <p>Following : ${element.following}</p>
+            <a href="${element.url}" target="_blank">Link</a>
+        </div>
+        `
+        );
+      }); 
+    }  
+   })
+ })   
